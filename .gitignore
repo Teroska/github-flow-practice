@@ -1,1 +1,22 @@
--e "# Python virtual environments\nvenv/\n.env\n.env.*\n\n# Byte-compiled / optimized / DLL files\n__pycache__/\n*.py[cod]\n*.pyo\n*.pyd\n\n# OS files\n.DS_Store\nThumbs.db"  
+# Python virtual environment
+venv/
+.env/
+.env.*
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
